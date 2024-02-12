@@ -15,6 +15,7 @@ void findDuplicateXOR(int arr[], int size) {
 }
 
 // This is an array implementation using sum method
+// This would not work if we have random elements in the array such as  {1, 3, 5, 5, 6}
 // void findDuplicate(int arr[], int size) {
 //     int sum = 0;
 //     for (int i = 0; i < size; i++) {
